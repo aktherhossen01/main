@@ -253,10 +253,4 @@ p{
 
 
 
-/* Media Queries */
 
-@media only screen and (max-width:688px) {
-    .tpo{
-        background-color: tomato;
-    }
-}
