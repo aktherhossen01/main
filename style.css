@@ -1,0 +1,262 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+/*------------------ 
+header start 
+--------------*/
+.top{
+    display: flex;
+   
+    width: 1348.5px;
+    height: 677px;
+   
+    background-color: rgb(114, 107, 172);
+    margin-bottom: 30px;
+    
+}
+.top-player{
+    width: 50%;
+}
+.section-taitle{
+   
+   
+    height: 300px;
+    margin-top: 160px;
+    margin-left: 156px;
+    font-size: 64px;
+   
+    color: #FFFFFF;
+  
+   
+   
+    
+}
+h1{
+    font-size: 64px;
+   transition: 0.5s;
+  
+}
+h1:hover{
+    font-size: 70px;
+    color: rgb(209, 9, 9);
+    transform: rotate(360deg);
+}
+
+
+.link-button{
+   
+    margin-left: 160px;
+    background-color: tomato;
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+   
+}
+
+
+  
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+    left: 1299.01px;
+    margin-top: 60px;
+}
+   
+ /* ----------------
+ header end
+ -------------------  */
+
+
+
+
+
+
+
+
+
+/*----------------------
+ player style start
+ -------------------*/
+.drim{
+   
+    width: 1050px;
+    margin-left: 180px;
+    background-color:white;
+   
+}
+.players{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.player{
+    width: 290px;
+    text-align: center;
+    text-align: justify;
+    margin-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 12px;
+    text-align: justify;
+}
+
+h4{
+    text-align: justify;
+}
+.player img{
+    width: 100%;
+}
+/*---------------
+ player style start
+ -----------------*/
+
+/* bouns mark  */
+
+.Recipies-list{
+   
+    margin-top: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+span{
+    color: orange;
+}
+.footer-player {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.footer-player img{
+    width: 400px;
+}
+.footer-player p{
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+
+.login-form{
+    width: 350px;
+    height: 250px;
+    padding: 12px;
+    border-radius: 17px;
+    background-color: rgb(146, 69, 55);
+  
+   margin-left: 32%;
+  
+}
+.login-form h3{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.login-form b{
+    font-size: 16px;
+    text-align: center;
+
+}
+.login-form input{
+    font-size: 12px;
+    width: 50%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+   
+
+
+}
+.login-form button{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+
+.footer-image img{
+    width: 500px;
+    height: 150px;
+    margin-left: 26%;
+    margin-top: 50px;
+}
+
+
+    
+
+
+.socol-icon ul{
+   
+  margin-left: 61.5%;
+  
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.socol-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.socol-icon ul li .fa{
+    font-size: 30px;
+    line-height: 30px;
+    transition: .6s;
+   
+    color: rgb(0, 0, 0);
+}
+.socol-icon ul li .fa:hover{
+   color: #fff;
+}
+.socol-icon ul li a{
+    position: relative;
+    display: block;
+   
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    
+
+}
+.socol-icon ul li a:hover{
+    transform: translate(0, -10px);
+}
+p{
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width:688px) {
+    .tpo{
+        background-color: tomato;
+    }
+}
